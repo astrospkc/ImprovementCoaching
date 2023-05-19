@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    /* background-image: url("images/1.jpg"); */
+    background-color: #2d2c2c;
+    font-family: "Dosis";
+  }
+  .theme-light {
+    color: black;
+  }
+  .theme-dark {
+    color: white;
+  }
+}
